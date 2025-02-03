@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contenido Incrustado</title>
+  </head>
+  <body>
+    <p>
+      El contenido incrustado es un elemento que está alojado en una ubicación
+      diferente de la propia página web
+    </p>
+    <embed
+      src="video/webm"
+      type="trailers/estreno.mov"
+      width="640"
+      height="480"
+    />
+    <p>
+      iframe permite acceso a un recurso que se encuentra ubicado en un contexto
+      diferente a la página que se está mostrando en el navegador
+    </p>
+    <p>
+      Los iframes vienen muchas veces protegidos por lo que debemos insertar el
+      código preparado que se nos facilita y puede ocasionarnos algún problema
+      de permisos ocasionalmente
+    </p>
+    <p>un ejemplo muy usual son los iframes de google como:</p>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/ZSHHqt6qQ4c?si=t4iNDjyfHrOK_NoC"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24455.504124419203!2d-0.06866255623820777!3d39.98749050811794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5ffe2bb82bc197%3A0xbf89204be1c64f49!2sCastell%C3%B3n%20de%20la%20Plana%2C%20Castell%C3%B3n!5e0!3m2!1ses!2ses!4v1738532733122!5m2!1ses!2ses"
+      width="600"
+      height="450"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+    <p>
+      Se pueden incrustar objetos externos como imagen, pdf, vídeo ... Otra
+      alternativa a embed
+    </p>
+    <object
+      data="https://www.boe.es/buscar/pdf/1978/BOE-A-1978-31229-consolidado.pdf"
+      width="300"
+      height="200"
+      type="pdf"
+    ></object>
+    <object data="trailer.mp4" width="300" height="200" type="video"></object>
+    <p>Muestra una versión alternativa a un elemento img</p>
+    <article>
+      <p>En la imagen se puede mostrar las consecuencias de la tormenta ...</p>
+      <picture>
+        <source media="(max-width: 600px)" srcset="tormenta1.jpg" />
+        <source media="(max-width: 1000px)" srcset="tormentaDetalle.jpg" />
+        <img src="tormenta.jpg" alt="Imagen de una tormenta" />
+      </picture>
+    </article>
+
+    <p>Muestra como cargar audio</p>
+    <audio controls>
+      <source src="sonido.ogg" type="audio/ogg" />
+      <source src="sonido.mp3" type="audio/mpeg" />
+    </audio>
+  </body>
+</html>

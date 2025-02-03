@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="optioniewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <meta name="author" content="Irene García" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <form action="procesar.php" method="get">
+      <h2>Formulario de solicitud de abono transportes</h2>
+      <div>
+        <p>Seleccione zona</p>
+        <label for="optionA">
+          A
+          <input type="radio" name="option" id="optionA" />
+        </label>
+        <label for="optionB">
+          B
+          <input type="radio" name="option" id="optionB" />
+        </label>
+        <label for="optionC">
+          C
+          <input type="radio" name="option" id="optionC" />
+        </label>
+        <label for="optionD">
+          D
+          <input type="radio" name="option" id="optionD" />
+        </label>
+      </div>
+      <div>
+        <label for="type">Tipo de abono:</label>
+        <select name="type" id="type">
+          <option value="young">Joven</option>
+          <option value="normal">Normal</option>
+          <option value="old">Tercera Edad</option>
+        </select>
+      </div>
+      <div>
+        <label for="name">Nombre</label>
+        <input type="text" name="name" id="name" />
+      </div>
+      <div>
+        <label for="tel">Teléfono</label>
+        <input type="tel" name="tel" id="tel" />
+      </div>
+      <div>
+        <p>Marque las casillas correspondientes:</p>
+        <div>
+          <label for="cardoptions1">
+            Primera solicitud de abono
+            <input
+              type="checkbox"
+              name="cardoptions"
+              id="cardoptions1"
+              value="first-subscription-request"
+            />
+          </label>
+        </div>
+        <div>
+          <label for="cardoptions2">
+            Solicita nueva tarjeta sin contacto
+            <input
+              type="checkbox"
+              name="cardoptions"
+              id="cardoptions2"
+              value="new-contactless-card"
+            />
+          </label>
+        </div>
+        <div>
+          <label for="cardoptions3">
+            Solicita tarjeta abono anual
+            <input
+              type="checkbox"
+              name="cardoptions"
+              id="cardoptions3"
+              value="anual-subscription"
+            />
+          </label>
+        </div>
+      </div>
+      <input type="reset" value="reset" />
+      <input type="submit" value="enviar" />
+    </form>
+    <footer>
+      <hr />
+      <p>Si tiene alguna duda, puede contactar con nosotros en el 123456789</p>
+    </footer>
+  </body>
+</html>

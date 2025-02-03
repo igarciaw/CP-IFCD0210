@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formato 2</title>
+</head>
+<body>
+    <p>La etiqueta <em>em</em> sirve para enfatizar el texto sirve para sustituir la etiqueta <i>i</i> . Antigua Cursiva</p>
+    <p>La etiqueta <strong>strong</strong> se usa para resaltar el texto y sustituye a la etiqueta. Antigua Negrita <b>b</b></p>
+    <p>La etiqueta s muestra el texto como tachado para marcarlo <s>como incorrecto</s></p>
+    <p>La etiqueta small reduce el tamaño del texto etiquetado. Se usa especialmente para mostrar avisos,atribuciones,derechos de propiedad, textos legales...</p>
+    <p><hr><small>Este contenido es propiedad del alumnx</small></p>
+    <p>La etiqueta <b>sub</b> sirve para mostrar un subíndice como T<sub>0</sub> ejemplo</p>
+    <p>La etiqueta <b>sup</b> sirve para mostrar un subíndice como T<sup>0</sup> ejemplo</p>
+
+    <p>La etiqueta <b>ins</b> sirve para indicar la aparición de una nueva versión de contenido. Es la versión antagonista de <b>del:</b></p>
+    <p>Los lenguajes de programación más demandados son Java, Python, C# y <ins>Kotlin</ins></p>
+    <p>La etiqueta <b>kbd</b> representa el texto diferenciado para mejorar la usabilidad, se suele indicar para resaltar 
+        teclas o comandos de teclas introducidos como podría ser <kbd>Ctrl+F1</kbd></p>
+    <p>La etiqueta mark <mark>resalta el texto marcado</mark>. La idea es mostrar el texto como si se subrayamos con un <mark>rotulador amarillo</mark></p>
+    <p>La etiqueta <b>q</b> se usa para indicar una cita literal de html. Por ejemplo: <q cite="https://es.wikimedia.org/wiki/html">Html: 
+        es un lenguaje de marcado que nos permite indicar la estructura de nuestro documento mediante etiquetas</q></p>
+
+    <p>La etiqueta <b>noscript</b> nos permite mostrar una advertencia al usuario si el navegador encuentra que esta deshabilitado</p>
+    <p>por otra parte la etiqueta <b>script</b> nos permite soportar el código de javascript. Se recomienda cargar como archivo externo pero se verá en el futuro</p>
+    <button id="button">pulsa</button>
+    <script>
+        document.getElementById("button").addEventListener("click", function(){
+            if(document.getElementById("button").innerHTML == "ME HAS PULSADO!"){
+                document.getElementById("button").innerHTML = "pulsa otra vez";
+            } else{
+
+                document.getElementById("button").innerHTML = "ME HAS PULSADO!";
+            }
+        });
+    </script>
+    <noscript>No funciona JS</noscript>
+
+    <p>La etiqueta <b>template</b> sirve para crear fragmentos de documentos (componentes) excede del contenido por lo que se menciona simplemente</p>
+
+    <p>La etiqueta <b>time</b> representa un periodo de tiempo por ejemplo este contenido fue creado <date datetime="2025-02-03">3 de febrero de 2025</date> </p>
+    <p>La etiqueta <b>var</b> indica que es una expresión matemática o un programa informático como la variable <var> offset</var></p>
+    
+</body>
+</html>

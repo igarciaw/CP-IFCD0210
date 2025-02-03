@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Irene García" />
+    <title>Tablas</title>
+  </head>
+  <body>
+    <style>
+      table {
+        /* width: 100%; */
+        border-collapse: collapse;
+        margin: 10px;
+      }
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: left;
+      }
+      th {
+        background-color: #f2f2f2;
+      }
+    </style>
+    <!-- tr(ow) th(ead) td(efinition)  -->
+    <h3>Tablas</h3>
+    <table border="1" cellpadding="10" cellspacing="10">
+      <caption>
+        Tabla de ahorros
+      </caption>
+      <tr>
+        <th>Mes</th>
+        <td>Ahorros</td>
+      </tr>
+      <tr>
+        <th>Suma</th>
+        <td>180€</td>
+      </tr>
+      <tr>
+        <th>Enero</th>
+        <td></td>
+      </tr>
+      <tr>
+        <th>Febrero</th>
+        <td>80€</td>
+      </tr>
+    </table>
+    <table border="1" cellpadding="5" cellspacing="10">
+      <caption>
+        Tabla de muestra
+      </caption>
+      <tr>
+        <th>Encabezado 1</th>
+        <th>Encabezado 2</th>
+        <th>Encabezado 3</th>
+      </tr>
+      <tr>
+        <td>Fila 1, Columna 1</td>
+        <td>Fila 1, Columna 2</td>
+        <td>Fila 1, Columna 3</td>
+      </tr>
+      <tr>
+        <td>Fila 2, Columna 1</td>
+        <td>Fila 2, Columna 2</td>
+        <td>Fila 2, Columna 3</td>
+      </tr>
+    </table>
+    <table border="1">
+      <caption>
+        Tabla de películas, director y guionista
+      </caption>
+      <tr>
+        <th>Película</th>
+        <th>Director</th>
+        <th>Guionista</th>
+      </tr>
+      <tr>
+        <td>Los otros</td>
+        <td colspan="2">Alejandro Amenábar</td>
+      </tr>
+      <tr>
+        <td>Los pájaros</td>
+        <td>Hitchcock</td>
+        <td>Evan Hunter</td>
+      </tr>
+    </table>
+    <table border="1">
+      <caption>
+        Tabla de películas y directores
+      </caption>
+      <tr>
+        <th>Película</th>
+        <th>Director</th>
+      </tr>
+      <tr>
+        <td>Los otros</td>
+        <td rowspan="2">Alex Amenábar</td>
+      </tr>
+      <tr>
+        <td>Abre los ojos</td>
+      </tr>
+      <tr>
+        <td>Los pájaros</td>
+        <td>Alfredico</td>
+      </tr>
+    </table>
+    <!-- Añade una columna nueva en la segunda tabla, al lado del director con el encabezado: “imagen”, y las siguientes celdas: Sí, No, Sí. -->
+    <table border="1">
+      <caption>
+        Tabla de películas y directores modificado
+      </caption>
+      <tr>
+        <th>Película</th>
+        <th>Director</th>
+        <th>Imagen</th>
+      </tr>
+      <tr>
+        <td>Los otros</td>
+        <td rowspan="2">Alex Amenábar</td>
+        <td>Sí</td>
+      </tr>
+      <tr>
+        <td>Abre los ojos</td>
+        <td>No</td>
+      </tr>
+      <tr>
+        <td>Los pájaros</td>
+        <td>Alfredico</td>
+        <td>Sí</td>
+      </tr>
+    </table>
+  </body>
+</html>

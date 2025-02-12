@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+}
+.main {
+  height: 150vh;
+  background-color: aquamarine;
+  text-align: center;
+  padding: 50vh;
+}
+.footer {
+  bottom: 0;
+  position: fixed;
+  width: 100vw;
+  height: 100px;
+  background-color: red;
+  text-align: center;
+  padding: 10px;
+}

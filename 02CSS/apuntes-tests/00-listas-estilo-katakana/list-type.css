@@ -1,0 +1,15 @@
+#conImagen {
+  list-style-image: url('imagen.png');
+}
+#conCirculo {
+  list-style-type: circle;
+}
+#katakana {
+  list-style-type: katakana;
+}
+#decimal {
+  list-style-type: decimal-leading-zero;
+}
+#conResumen {
+  list-style: square inside url('imagen.png');
+}

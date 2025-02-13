@@ -1,0 +1,21 @@
+.div {
+  height: 50px;
+  width: 50px;
+  background-color: #338899;
+  margin: auto;
+}
+.static {
+  /* position: absolute; */
+  height: 50px;
+  width: 50px;
+  background-color: #993355;
+  top: 500px;
+}
+
+.absolute {
+  height: 50px;
+  width: 50px;
+  background-color: #acd847;
+  position: absolute;
+  top: 5px;
+}

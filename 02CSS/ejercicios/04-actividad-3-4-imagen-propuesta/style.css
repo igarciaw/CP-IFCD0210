@@ -1,0 +1,47 @@
+:root {
+  --bg-color: rgb(175, 175, 175);
+}
+* {
+  margin: 0;
+}
+body {
+  display: grid;
+  grid-template-rows: 150px auto 100px; /* Header fijo, main flexible, footer fijo */
+  height: 100vh;
+  margin: 0;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.izquierda,
+.derecha {
+  border-style: dashed;
+  width: 35%;
+  padding: 30px 20px;
+  background-color: var(--bg-color);
+}
+.derecha {
+  text-align: right;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main p {
+  width: 400px;
+  padding: 50px;
+}
+.footer {
+  background-color: var(--bg-color);
+  width: 100vw;
+  height: 100px;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

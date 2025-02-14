@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>Bienvenido al IES Clara del Rey</h1>
+    </header>
+    <main class="main">
+      <div class="sidebar">
+        <a href="#">Google</a><br />
+        <a href="#">Bing</a>
+      </div>
+      <div class="form">
+        <h2>Formulario de Registro</h2>
+        <p>Sea tan amable de rellenar el siguiente formulario:</p>
+        <form>
+          <div class="fieldsets-container">
+            <fieldset class="personal-data">
+              <legend>Datos personales</legend>
+              <label for="name">Nombre y apellidos:</label>
+              <input type="text" id="nombre" name="name" />
+              <div>
+                <label for="man">Hombre</label>
+                <input type="radio" id="man" name="genre" value="man" />
+                <label for="woman">Mujer</label>
+                <input type="radio" id="woman" name="genre" value="woman" />
+              </div>
+              <div>
+                <label for="over-18">Mayor de edad</label>
+                <input type="radio" id="over-18" name="age" value="over-18" />
+                <label for="under-18">Menor de edad</label>
+                <input type="radio" id="under-18" name="age" value="under-18" />
+              </div>
+            </fieldset>
+            <fieldset class="academy-data">
+              <legend>Datos académicos</legend>
+              <label for="subject">
+                Seleccione la materia que le parezca más interesante:
+              </label>
+              <select id="subject" name="subject">
+                <option value="computing">Informática</option>
+                <option value="mathematics">Matemáticas</option>
+                <option value="spanish">Lengua</option>
+              </select>
+              <div>
+                <label for="alumnus">Antiguo alumno</label>
+                <input type="checkbox" id="alumnus" name="alumnus" />
+              </div>
+              <div>
+                <label for="validation">Solicita convalidación</label>
+                <input type="checkbox" id="validation" name="validation" />
+              </div>
+              <label for="comments">Comentarios adicionales:</label>
+              <textarea
+                id="comments"
+                name="comments"
+                rows="10"
+                cols="50"
+              ></textarea>
+            </fieldset>
+          </div>
+          <hr />
+          <div class="btns">
+            <input type="submit" value="Enviar" />
+            <input type="reset" value="Limpiar" />
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer class="footer">
+      <p>
+        Página realizada por <a href="" class="bussines-link">Empresa S.A</a>
+      </p>
+    </footer>
+  </body>
+</html>

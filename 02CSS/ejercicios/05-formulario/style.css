@@ -1,0 +1,32 @@
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form {
+text-transform: uppercase;
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px black solid;
+  border-radius: 5px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  margin-bottom: 10px;
+  border: 1px solid #ff2929;
+  border-radius: 3px;
+}
+
+form input:focus {
+  outline: none;
+  border-color: #ffaa29;
+}
+input[type='submit'] {
+  margin-top: 10px;
+  background-color: #ffaa29;
+}

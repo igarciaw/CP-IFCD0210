@@ -1,0 +1,11 @@
+.pinta {
+  background-color: lightsalmon;
+  text-transform: uppercase;
+  color: purple;
+}
+
+.pintaDiferente {
+  background-color: aliceblue;
+  text-decoration: underline;
+  color: blueviolet;
+}

@@ -1,0 +1,2 @@
+// [SUSTITUTIVO] Generar 100 numeros aleatorios y que no se repitan
+// Escribe un programa en Javascript que se generen 100 números aleatorios entre 1 y 1000 y que no se repitan  ( muestralos por pantalla o devuelven las listas de los números generados).

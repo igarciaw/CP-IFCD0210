@@ -4,21 +4,21 @@ Conociendo Java
 [//]: # (❌ ¿Qué conocimientos previos necesitamos?)
 [//]: # (❌ Herramientas que necesitamos instalar)
 [//]: # (❌ Tengo dudas… ¿Cómo pido ayuda?)
-[ ] 01 ¿Qué es la Programación Orientada a Objetos? 8:07
+[x] 01 ¿Qué es la Programación Orientada a Objetos? 8:07
 
 Clases, Objetos y Métodos
-[ ] 02 ¿Qué son las clases? ¿Cómo crear una? 8:02
-[ ] 03 ¿Qué son los métodos? ¿Cómo crear uno? 9:34
-[ ] 04 Métodos Constructores y Objetos 13:25
-[ ] 05 Getters y Setters 14:32
+[x] 02 ¿Qué son las clases? ¿Cómo crear una? 8:02
+[x] 03 ¿Qué son los métodos? ¿Cómo crear uno? 9:34
+[x] 04 Métodos Constructores y Objetos 13:25
+[x] 05 Getters y Setters 14:32
 
 Propiedades de la POO
-[ ] 06 Herencia 11:59
-[ ] 07 Polimorfismo 12:07
-[ ] Sobrescritura y Sobrecarga de métodos 8:52
-[ ] 08 Encapsulamiento 13:00
-[ ] 09 Clases Abstractas 19:00
-[ ] 10 Interfaces 15:57
+[x] 06 Herencia 11:59
+[x] 07 Polimorfismo 12:07
+[x] Sobrescritura y Sobrecarga de métodos 8:52
+[x] 08 Encapsulamiento 13:00
+[x] 09 Clases Abstractas 19:00
+[x] 10 Interfaces 15:57
 [ ] 11 Ejercicio Integrador – VIDEOJUEGO de POKEMON 27:33
 
 Collections (Colecciones) en Java

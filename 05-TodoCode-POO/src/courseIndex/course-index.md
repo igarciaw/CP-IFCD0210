@@ -23,7 +23,7 @@ Propiedades de la POO
 [x] 11 Ejercicio Integrador – VIDEOJUEGO de POKEMON 27:33
 
 Collections (Colecciones) en Java
-[ ] 12 ¿Qué son las Collections? 8:02
+[x] 12 ¿Qué son las Collections? 8:02
 [ ] 13 ArrayLists en Java 14:38
 [ ] 14 LinkedLists en Java 10:14
 [ ] 15 Diferencias entre ArrayLists y LinkedLists 16:45

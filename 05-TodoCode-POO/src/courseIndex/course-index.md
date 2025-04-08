@@ -1,4 +1,5 @@
 Conociendo Java
+https://todocodeacademy.com/course/programacion-orientada-a-objetos-con-java/
 
 [//]: # (❌ Bienvenida)
 [//]: # (❌ ¿Qué conocimientos previos necesitamos?)
@@ -30,7 +31,7 @@ Collections (Colecciones) en Java
 [ ] 16bis Hash Map en Java 18:07
 
 
-# [ ] Qué es Maven 11:35
+# [x] Qué es Maven 11:35
 
 Otros conceptos importantes de Java
 # [ ] 17 Excepciones en Java 15:21
@@ -67,4 +68,4 @@ Proyectos para tu Portfolio
 [ ] Ejercicio Integrador Nº 3: Login 1:45:47
 [ ] Ejercicio Integrador Nº 4: Sistema de Roles y Permisos 4:00:13
 
-# [ ] SpringFramwork Qué es 5:45
+# [ ] SpringFramework Qué es 5:45

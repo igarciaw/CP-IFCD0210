@@ -20,7 +20,7 @@ Propiedades de la POO
 [x] 08 Encapsulamiento 13:00
 [x] 09 Clases Abstractas 19:00
 [x] 10 Interfaces 15:57
-[ ] 11 Ejercicio Integrador – VIDEOJUEGO de POKEMON 27:33
+[x] 11 Ejercicio Integrador – VIDEOJUEGO de POKEMON 27:33
 
 Collections (Colecciones) en Java
 [ ] 12 ¿Qué son las Collections? 8:02

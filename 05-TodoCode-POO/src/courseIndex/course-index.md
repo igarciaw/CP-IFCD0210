@@ -25,7 +25,7 @@ Propiedades de la POO
 Collections (Colecciones) en Java
 [x] 12 ¿Qué son las Collections? 8:02
 [x] 13 ArrayLists en Java 14:38
-[ ] 14 LinkedLists en Java 10:14
+[x] 14 LinkedLists en Java 10:14
 [ ] 15 Diferencias entre ArrayLists y LinkedLists 16:45
 [ ] 16 Stacks (Pilas) en Java 9:15
 [ ] 16bis Hash Map en Java 18:07

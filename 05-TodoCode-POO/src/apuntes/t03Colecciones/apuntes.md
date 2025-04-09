@@ -48,10 +48,3 @@ Tipos:
   - LinkedLists (FIFO)
   - Stack (LIFO)
 
-## ARRAYLISTS
-Clase representada como matriz dinámica. Permite almacenar elementos.
-Hereda de la clase AbstractList, la cual implementa la interfaz List.
-Permite Colecciones o Elementos duplicados.
-FIFO El orden de los registros es el orden en el que fueron insertados.
-Tiene índice (permite acceso aleatorio).
-Manipulación lenta (se recorre todo el array para hacer un cambio).

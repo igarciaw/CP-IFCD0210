@@ -27,7 +27,7 @@ Collections (Colecciones) en Java
 [x] 13 ArrayLists en Java 14:38
 [x] 14 LinkedLists en Java 10:14
 [x] 15 Diferencias entre ArrayLists y LinkedLists 16:45
-[ ] 16 Stacks (Pilas) en Java 9:15
+[x] 16 Stacks (Pilas) en Java 9:15
 [ ] 16bis Hash Map en Java 18:07
 
 

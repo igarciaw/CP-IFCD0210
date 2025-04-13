@@ -42,7 +42,7 @@ Otros conceptos importantes de Java
 [ ] Enums parte 2 14:25
 # [x] Generics o genéricos 10:28
 
-# [ ] THREADS y Concurrencia en Java 19:31
+# [x] THREADS y Concurrencia en Java 19:31
 
 Ejercicios Integradores
 [ ] Ejercicio Integrador: VIDEOJUEGOS
@@ -68,4 +68,4 @@ Proyectos para tu Portfolio
 [ ] Ejercicio Integrador Nº 3: Login 1:45:47
 [ ] Ejercicio Integrador Nº 4: Sistema de Roles y Permisos 4:00:13
 
-# [ ] SpringFramework Qué es 5:45
+# [x] SpringFramework Qué es 5:45

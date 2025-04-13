@@ -1,4 +1,4 @@
-package apuntes.t03Colecciones.t04ArrayListVSLinkedList;
+package apuntes.t03Colecciones.t03ArrayListVSLinkedList;
 
 public class Persona {
     private int num;

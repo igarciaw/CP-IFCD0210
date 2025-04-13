@@ -1,4 +1,4 @@
-package apuntes.t03Colecciones.t04ArrayListVSLinkedList;
+package apuntes.t03Colecciones.t03ArrayListVSLinkedList;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

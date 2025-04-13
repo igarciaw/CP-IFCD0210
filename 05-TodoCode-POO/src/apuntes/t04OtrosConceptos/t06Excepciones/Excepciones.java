@@ -1,4 +1,4 @@
-package apuntes.t03Colecciones.t06Excepciones;
+package apuntes.t04OtrosConceptos.t06Excepciones;
 
 public class Excepciones {
     public static void main(String[] args) {

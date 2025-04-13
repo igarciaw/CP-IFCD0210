@@ -34,8 +34,8 @@ Collections (Colecciones) en Java
 # [x] Qué es Maven 11:35
 
 Otros conceptos importantes de Java
-# [ ] 17 Excepciones en Java 15:21
-# [ ] 18 Relaciones entre clases en Java 19:06
+# [x] 17 Excepciones en Java 15:21
+# [x] 18 Relaciones entre clases en Java 19:06
 [ ] 19 Ejercicio integrador Videojuegos 25:56
 [ ] 20 Conversión entre Tipos de Datos 13:10
 [ ] ENUMS o enumeraciones 12:24

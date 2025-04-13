@@ -40,7 +40,7 @@ Otros conceptos importantes de Java
 [ ] 20 Conversión entre Tipos de Datos 13:10
 [ ] ENUMS o enumeraciones 12:24
 [ ] Enums parte 2 14:25
-# [ ] Generics o genéricos 10:28
+# [x] Generics o genéricos 10:28
 
 # [ ] THREADS y Concurrencia en Java 19:31
 
